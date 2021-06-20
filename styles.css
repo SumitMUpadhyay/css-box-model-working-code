@@ -1,0 +1,83 @@
+/* CSS BOX MODEL, PADDING, MARGIN, BORDER */
+
+/* * {
+  margin: 0;
+}
+
+h1,
+p {
+  color: white;
+} */
+
+/* h1 {
+  background: red;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: chartreuse;
+  border-bottom-style: double;
+  border-bottom-color: green;
+  border-bottom-width: 20px;
+} */
+
+/* p {
+  background: blue;
+  /* padding: 40px; */
+/* padding: 30px 60px; */
+/* padding: 5px 20px 50px 40px;
+  border: 1rem dashed red;
+} */
+/* */
+
+/* BORDER-RADIUS , NEGATIVE MARGIN */
+
+/* h1,
+ p {
+  color: white;
+}
+
+h1 {
+  background: red;
+  padding: 10px;
+  border: 15px solid black;
+  border-radius: 5px;
+}
+
+p {
+  background: blue;
+  padding: 15px;
+  border: 7px dotted green;
+  border-radius: 50%;
+  margin-top: -50px;
+} */
+
+/*
+ OUTLINE , OFFSET 
+ */
+
+.links {
+  margin: 3rem;
+}
+
+a {
+  background: #689f3f;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: #222;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+#one {
+  border: 0.2rem solid #222;
+}
+
+#two {
+  outline-width: 0.2rem;
+  outline-color: #222;
+  outline-style: solid;
+  outline-offset: -10px;
+}
